@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("assets/fonts/rubik-600.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("assets/fonts/rubik-700.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.hero-copy h1,
+h2,
+.policy-intro h1 {
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.hero-copy h1 { letter-spacing: -0.075em; }
+.policy-intro h1 { letter-spacing: -0.065em; }
