@@ -1,0 +1,12 @@
+.app-screenshot {
+  display: block;
+  width: min(100%, 600px);
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .app-screenshot {
+    width: min(100%, 440px);
+  }
+}
